@@ -32,3 +32,37 @@ a:hover {
 img {
   display: block;
 }
+.icon {
+  display: inline;
+}
+.desc {
+  display: inline;
+  color: rgba(255, 255, 255, 0.8);
+}
+.box {
+  display: flex;
+  width: 90%;
+  border: none;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.viewButton {
+  display: inline;
+  float: right;
+
+  color: white;
+  border: none;
+}
+
+.viewButton:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.project {
+  margin: 1px auto;
+
+  align-items: center;
+}
