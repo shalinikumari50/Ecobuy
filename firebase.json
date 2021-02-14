@@ -1,0 +1,6 @@
+{
+  "database": [
+    {"target": "main", "rules": "foo.rules.json"},
+    {"target": "other", "rules": "bar.rules.json"}
+  ]
+}
